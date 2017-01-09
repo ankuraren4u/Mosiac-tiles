@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+}
+
+svg {
+    float: left;
+}
+
+.loading {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height: 20px;
+    width: 80px;
+    margin: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.image__input {
+    text-align: center;
+    margin: 10px;
+    color: #110e2f;
+}
+
+.image-input__picker{
+    border: 1px solid #c7c5c5;
+    padding: 2px 5px;
+    background: rgba(127, 151, 241, 0.18);
+}
+
+.image__drop-message {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 20px;
+    width: 200px;
+    border: 6px solid #eee;
+    outline: 2px dashed #ccc;
+    background: transparent;
+    padding: 10px;
+    color: #666;
+}
+.image__drop-message-wrapper {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: scroll;
+    background: #fff;
+}
+
+.image__title {
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    background-color: #eee;
+    color: #666;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.image__left-wrapper {
+    position: absolute;
+    left: 0;
+    right: 50%;
+    bottom: 0;
+    top: 40px;
+    border: 1px solid #cdcdcd;
+}
+
+.image__left,
+.image__right {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: scroll;
+}
+
+.image__right-wrapper {
+    position: absolute;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    top: 40px;
+    border: 1px solid #cdcdcd;
+    border-left: 0;
+}
